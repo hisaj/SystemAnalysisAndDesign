@@ -25,25 +25,30 @@ We are proposing a system hereafter **EasyVending** to Vending Machine Manufactu
 * Reports (Data accumulated from sensors i.e. temperature etc.)
 
 With the advent of increasing technology and embedded systems growing with computational capabilities, ** EasyVending ** will make use of these advances and interface with the vending machines main business operations allowing customers to manage their machines without prior programming or technological background.
-**VMM's** who are using **EasyVending** promise their customers full control and maintainability. Most vending machines that are currently operating have limited interfacing options which makes the customer often depend on repair services usually conducted by individuals not associated with the customer’s main business that produces extra cost which in most cases can be avoided. 
-Additionally ** VMM's** that use ** EasyVending** provide customers access to their vending machines through interfacing locally and/or remotely, add or remove products, change prices, adjust currency settings, generate sell reports, manage temperature settings, keep records of temperatures within the machines which has become a key factor for customers that use their vending machines to sell hot beverages.
+VMM's who are using EasyVending promise their customers full control and maintainability. Most vending machines that are currently operating have limited interfacing options which makes the customer often depend on repair services usually conducted by individuals not associated with the customer’s main business that produces extra cost which in most cases can be avoided. 
+Additionally VMM's that use EasyVending provide customers access to their vending machines through interfacing locally and/or remotely, add or remove products, change prices, adjust currency settings, generate sell reports, manage temperature settings, keep records of temperatures within the machines which has become a key factor for customers that use their vending machines to sell hot beverages.
 
-The Administrative setup creates an **Administrator** for the vending machine taking in business related customers details and access information such as username and password. An **Administrator** can share some of his duties by creating a secondary Administrator hereinafter **Manager**. 
-**Managers** fall under a system restriction and can only access:
+The Administrative setup creates an Administrator for the vending machine taking in business related customers details and access information such as username and password. An Administrator can share some of his duties by creating a secondary Administrator hereinafter Manager. 
+Managers fall under a system restriction and can only access:
 * Inventory Control
 * shelve mapping 
 * Alert Control.
 
-** Accounting** "Northbound interface" is tracking all sales conducted on the machine and keeps track of transaction details, "Southbound Interface" allows the **Administrators** to see current account details, set remote bank accounts,
+** Accounting** 
+"Northbound interface" is tracking all sales conducted on the machine and keeps track of transaction details, "Southbound Interface" allows the Administrators to see current account details, set remote bank accounts,
 And approve outstanding and upcoming transactions.
 
-The "Northbound" Interface of **Alert Control** is concerned to keep an eye on the internal stability of the system, i.e. make sure that temperature sensors don't report values that exceed the required ranges, the account balance corresponds with the current product sales, no error reporting within the Vending machines Operating System and possible vandalism.
-The "Southbound" Interface of ** Alert control** is concerned with collecting recording and corresponding to severity sending reports out the **Administrators** and **Manager**s. 
+**AlertControl**
+The "Northbound" Interface of Alert Control is concerned to keep an eye on the internal stability of the system, i.e. make sure that temperature sensors don't report values that exceed the required ranges, the account balance corresponds with the current product sales, no error reporting within the Vending machines Operating System and possible vandalism.
+The "Southbound" Interface of Alert control is concerned with collecting recording and corresponding to severity sending reports out the Administrators and Managers. 
 
-**Inventory Control** allows the **Administrators** and **Managers** to keep track of outgoing and incoming new sales products. Outgoing products are registered and recorded immediately once a sale has been initiated, the **Administrators** and **Managers** are responsible to make sure that the Vending machine has records of these products by supplying product data either through csv, or son files or manually.
+**Inventory Control** 
+Allows the Administrators and Managers to keep track of outgoing and incoming new sales products. Outgoing products are registered and recorded immediately once a sale has been initiated, the Administrators and Managers are responsible to make sure that the Vending machine has records of these products by supplying product data either through csv, or son files or manually.
 
-**Pricing** Administrators can set and change pricing policies for individual products, refer to machines Order recommendations and Order outstanding products by simply clicking a button.
+**Pricing** 
+Administrators can set and change pricing policies for individual products, refer to machines Order recommendations and Order outstanding products by simply clicking a button.
 
-**Shelve Product Mapping** allows Administrators to correctly map and locate their products within the machine. 
+**Shelve Product Mapping** 
+allows Administrators to correctly map and locate their products within the machine. 
 
 **EasyVending's** revenue stream will come from VMM's who are using EasyVending as their solution, in the form of sale commission and/or a one-time payment for EasyVending.
