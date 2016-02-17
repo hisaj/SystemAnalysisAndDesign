@@ -8,12 +8,12 @@ From 17.06.2016 to 20.02.2016
 
 **Requirements**
 
-- [ ] Write Narrative and Description of System                (Ben )    #issue01
-- [ ] Discuss and Justify SLC & risk mgt strategy              (Seun)    #issue02
-- [ ] Create initial use case Diagrams                         (Remi)    #issue03
-- [ ] Structured use case descriptions
-- [ ] Non-functional (Quality attributres) 
-- [ ] Screen shots / report formats
+- [ ] #issue01 Write Narrative and Description of System   (Ben )    
+- [ ] #issue02 Discuss and Justify SLC & risk mgt strategy (Seun)    
+- [ ] #issue03 Create initial use case Diagrams            (Remi)   
+- [ ] #issue04Structured use case descriptions
+- [ ] #issue05 Non-functional (Quality attributres) 
+- [ ] #issue06 Screen shots / report formats
 
 **System Architecture Diagram with Interfaces**
 
