@@ -1,6 +1,7 @@
 # Narrative
 
 **Introduction**
+
 The European Vending Association estimates that every day 82 million food and drink items are purchased from a vending machine, by European customers (including Russia, Turkey, and Ukraine). 
 In 2012 the field of operating machines has remained almost stable with 3.77 million operating machines. 80% of these machines where located in Europe’s 6 big leading markets the big 6 (Italy, France, Germany, the Netherlands, Spain and the United Kingdom.).
 An Interesting fact according to the European Vending Association is that 60% of these operating machines are hot drinks vending machines whereas the remaining 40% can be evenly divided between cold drinks and a mix of both hot drinks and cold drinks vending machines.
