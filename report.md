@@ -25,7 +25,7 @@ We are proposing a system hereafter **EasyVending** to Vending Machine Manufactu
 * Shelve Product Mapping Internal 
 * Reports (Data accumulated from sensors i.e. temperature etc.)
 
-With the advent of increasing technology and embedded systems growing with computational capabilities, **EasyVending** will make use of these advances and interface with the vending machines main business operations allowing customers to manage their machines without prior programming or technological background.
+With the advent of increasing technology and embedded systems growing with computational capabilities, EasyVending will make use of these advances and interface with the vending machines main business operations allowing customers to manage their machines without prior programming or technological background.
 VMM's who are using EasyVending promise their customers full control and maintainability. Most vending machines that are currently operating have limited interfacing options which makes the customer often depend on repair services usually conducted by individuals not associated with the customer’s main business that produces extra cost which in most cases can be avoided. 
 Additionally VMM's that use EasyVending provide customers access to their vending machines through interfacing locally and/or remotely, add or remove products, change prices, adjust currency settings, generate sell reports, manage temperature settings, keep records of temperatures within the machines which has become a key factor for customers that use their vending machines to sell hot beverages.
 
