@@ -1,19 +1,19 @@
 # Narrative
 
-** Introduction **
+**Introduction**
 The European Vending Association estimates that every day 82 million food and drink items are purchased from a vending machine, by European customers (including Russia, Turkey, and Ukraine). 
 In 2012 the field of operating machines has remained almost stable with 3.77 million operating machines. 80% of these machines where located in Europe’s 6 big leading markets the big 6 (Italy, France, Germany, the Netherlands, Spain and the United Kingdom.).
 An Interesting fact according to the European Vending Association is that 60% of these operating machines are hot drinks vending machines whereas the remaining 40% can be evenly divided between cold drinks and a mix of both hot drinks and cold drinks vending machines.
 The total turnover from vending machines in 2012 was  €11.3 billion.
 The total number of items sold through vending machines in 2012 was 30 billion units, of which 24 billion items were dispensed in the Big Six.  
 
-** EasyVending** 
+**EasyVending** 
 
 (We can change this name later)
 
-We are proposing a system hereafter ** EasyVending ** to Vending Machine Manufacturers ** VMMs **, that promises to understand ** "easy interfacing" ** and making it the core and heart of every vending machine.
+We are proposing a system hereafter **EasyVending** to Vending Machine Manufacturers **VMMs**, that promises to understand **"easy interfacing"** and making it the core and heart of every vending machine.
 
-** EasyVending's ** interfaces can be broken down into 7 categories 
+**EasyVending's** interfaces can be broken down into 7 categories 
 
 * Administrative Setup
 * Accounting
