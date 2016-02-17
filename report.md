@@ -12,7 +12,7 @@ The total number of items sold through vending machines in 2012 was 30 billion u
 
 (We can change this name later)
 
-We are proposing a system hereafter **EasyVending** to Vending Machine Manufacturers **VMMs**, that promises to understand **"easy interfacing"** and making it the core and heart of every vending machine.
+We are proposing a system hereafter **EasyVending** to Vending Machine Manufacturers (VMMs), that promises to understand easy interfacing" and making it the core and heart of every vending machine.
 
 **EasyVending's** interfaces can be broken down into 7 categories 
 
@@ -36,20 +36,25 @@ Managers fall under a system restriction and can only access:
 * Alert Control.
 
 ** Accounting** 
+
 "Northbound interface" is tracking all sales conducted on the machine and keeps track of transaction details, "Southbound Interface" allows the Administrators to see current account details, set remote bank accounts,
 And approve outstanding and upcoming transactions.
 
 **AlertControl**
+
 The "Northbound" Interface of Alert Control is concerned to keep an eye on the internal stability of the system, i.e. make sure that temperature sensors don't report values that exceed the required ranges, the account balance corresponds with the current product sales, no error reporting within the Vending machines Operating System and possible vandalism.
 The "Southbound" Interface of Alert control is concerned with collecting recording and corresponding to severity sending reports out the Administrators and Managers. 
 
 **Inventory Control** 
+
 Allows the Administrators and Managers to keep track of outgoing and incoming new sales products. Outgoing products are registered and recorded immediately once a sale has been initiated, the Administrators and Managers are responsible to make sure that the Vending machine has records of these products by supplying product data either through csv, or son files or manually.
 
 **Pricing** 
+
 Administrators can set and change pricing policies for individual products, refer to machines Order recommendations and Order outstanding products by simply clicking a button.
 
 **Shelve Product Mapping** 
-allows Administrators to correctly map and locate their products within the machine. 
+
+Allows Administrators to correctly map and locate their products within the machine. 
 
 **EasyVending's** revenue stream will come from VMM's who are using EasyVending as their solution, in the form of sale commission and/or a one-time payment for EasyVending.
