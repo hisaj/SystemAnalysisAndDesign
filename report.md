@@ -14,6 +14,10 @@ Format: ![Alt Text](url)
 
 **EasyVending** 
 
+
+
+![Github Logo](https://www.google.ie/search?q=vending+machine+object+oriented+design&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjKysTvnoHLAhVIRBQKHfHED3UQ_AUIBygB&biw=1920&bih=949#tbm=isch&q=vending+machine+uml&imgrc=-AhuLwONw3BX2M%3A)
+
 (We can change this name later)
 
 We are proposing a system hereafter **EasyVending** to Vending Machine Manufacturers (VMMs), that promises to understand easy interfacing" and making it the core and heart of every vending machine.
