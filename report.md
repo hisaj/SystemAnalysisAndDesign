@@ -8,6 +8,10 @@ An Interesting fact according to the European Vending Association is that 60% of
 The total turnover from vending machines in 2012 was  €11.3 billion.
 The total number of items sold through vending machines in 2012 was 30 billion units, of which 24 billion items were dispensed in the Big Six.  
 
+![GitHub Logo](http://2.bp.blogspot.com/-2DWjLZRjXP8/U1Z3GEuWYpI/AAAAAAAABb8/U4K7rEvQ4Xg/s1600/State+Design+Pattern.PNG)
+Format: ![Alt Text](url)
+
+
 **EasyVending** 
 
 (We can change this name later)
