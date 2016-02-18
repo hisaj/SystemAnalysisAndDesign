@@ -16,7 +16,7 @@ Format: ![Alt Text](url)
 
 
 
-![Github Logo](https://www.google.ie/search?q=vending+machine+object+oriented+design&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjKysTvnoHLAhVIRBQKHfHED3UQ_AUIBygB&biw=1920&bih=949#tbm=isch&q=vending+machine+uml&imgrc=-AhuLwONw3BX2M%3A)
+![Github Logo](http://lh5.ggpht.com/_xHVsCVak-6A/TAs9k37WaII/AAAAAAAARzM/fHrEPpsvHW8/image_thumb%5B41%5D.png?imgmax=800)
 
 (We can change this name later)
 
