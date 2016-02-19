@@ -1,7 +1,7 @@
 # Use Cases
 
 
-**Proposal of  of Possible use cases**
+**Proposal of Possible use cases**
 
 
 * Machine Installation
@@ -11,7 +11,7 @@
 
 * AlertControl _Account Imballance_-> 
 * AlertControl _Temperature Imballance_ 
-* AlertControl _Vandalism_         // Accelerometer report data higher than specified //
+* AlertControl _Vandalism_         // Accelerometer report data higher than specified // 
 * AlertControl _System Fault_      // Ambient light sensor reports data lower than specified  
 * AlertControl _Weight Imbalance_  // current actual weights in each slots does not correspond with current estimation of overall weight in each slot  
 
