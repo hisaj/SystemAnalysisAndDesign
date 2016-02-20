@@ -188,24 +188,24 @@ _The System should update the current product and financial state in not less 30
 
   **Users**
    
-    *Select a prefer item by pressing a button
-    *Insert cash or card for payment
-    *Get or pick up item from the from base of the machine
+    **Select a prefer item by pressing a button
+    **Insert cash or card for payment
+    **Get or pick up item from the from base of the machine
    
   **System Response**
   
-    *Vending Machine reads and calculate the prefer item details (Type, slot-line, numbers, amount)
-    *Vending Machine display amount due and receive the proportionate cash value
-    *Vending Machine dispense or drop the item selected for user to pick it up
+    **Vending Machine reads and calculate the prefer item details (Type, slot-line, numbers, amount)
+    **Vending Machine display amount due and receive the proportionate cash value
+    **Vending Machine dispense or drop the item selected for user to pick it up
   
   **Alternate route**
     _Actor Action
     *Users select item and did not insert cash or payment
-    *Users select wrong item and insert cash
+    **Users select wrong item and insert cash
     
     _System Response
-    *Vending Machine refuse to to dispense item
-    *Vending Machine refuse to dispense item and refund cash.
+    **Vending Machine refuse to to dispense item
+    **Vending Machine refuse to dispense item and refund cash.
     
 **Non Functional Requirement**:-    *Performance*
     
@@ -214,7 +214,7 @@ _The System should update the current product and financial state in not less 30
     
   *AlertControl use case*
     
-    *Actor*: Temperature
+    **Actor**: Temperature
     *Action*: Reads temperatures
       
      _Temperatures_
