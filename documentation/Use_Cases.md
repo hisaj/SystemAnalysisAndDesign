@@ -212,12 +212,12 @@ _The System should update the current product and financial state in not less 30
  _The response from Vending machine is faster and correct_
  
  
-*AlertControl use case*
+**AlertControl use case**
  
 **Actor**: Temperature
-*Action*: Reads temperatures
+**Action**: Reads temperatures
 
-_Temperatures_
+**_Temperatures_**
 *Sense the ambient environ for change in temperatures proportionate to the value set for the environ
 
 **System Response**
