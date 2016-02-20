@@ -56,8 +56,8 @@ and encrypted.
 
 **System Response**
 
-* Validates new credentials
-* Stores new credentials 
+** Validates new credentials
+**Stores new credentials 
 
 **Alternative Route**
 
