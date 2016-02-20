@@ -9,8 +9,9 @@
 * Restock / Refill -> Beneficiary
 * Purchase -> Users
 
-* AlertControl _Account Imballance_-> 
+* AlertControl _Account Imballance_ 
 * AlertControl _Temperature Imballance_ 
+
 * AlertControl _Vandalism_         // Accelerometer report data higher than specified //
 * AlertControl _System Fault_      // Ambient light sensor reports data lower than specified  
 * AlertControl _Weight Imbalance_  // current actual weights in each slots does not correspond with current estimation of overall weight in each slot  
@@ -179,5 +180,67 @@ _The Internal process of allocating and specifying products should be modifyable
 **Performance**
 
 _The System should update the current product and financial state in not less 30 seconds
+
+
+**Vending Machine AlertControl Vandalism**
+
+**Actor:**  User
+**Action:** Vandalism 
+
+**User**
+
+* Handles Machine with agressive and malicious intent
+
+**System Response**
+ 
+*  Internal Accelero meters report data higher than the specified threshold.
+** The System sends alert report and corresponding logs to remote servers.
+** The System sends an alert email to the Beneficiary.
+** The System sends a text Message to the Beneficiary.
+
+**Alternative Route**
+
+The Internal Accelerometers may be faulty.
+ * a) System is not able to detect possible vandalism.
+ * b) System interpretates a normal purchase as vandalism.  
+
+**Non Functional Requirements**
+
+_The System should allow System wide recalibration of sensors._ 
+
+
+**Vending Machine AlertControl Weight Imballance**
+
+**Actor:**  Weight Sensor
+**Action:** Report weight data  
+
+**Weight Sensor**
+
+* Reports data from sensors that does not correspond to overall estimation of current weight
+
+**System Response**
+ 
+*  The System checks if a purchase was made .
+** The System checks what was purchased.
+** The System caculates weight imballance against the individual weight of product thas was purchased.
+** The System determines if the weigth ballance corresponds to a possible product that was not dispensed due to error. 
+** The System validates should a refund be issued
+** The System reports weight imballance and actions taken to the remote servers and logs
+
+**Alternative Route**
+
+
+ System fails to determine if current weight imballance was related to a foregoing purchase and cannot decide wether it should issue a refund 
+
+**Non Functional Requirements**
+
+**Performance**
+
+_The response to a weight imballance and the decisive action to take should be performed in no more than 4 seconds_ 
+
+**Security**
+
+_The manipulation of weigth sensors to invoke a refund without cause should be prevented by precise and efficent calculations_
+
 
 
