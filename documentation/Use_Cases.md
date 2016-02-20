@@ -34,7 +34,7 @@
 * System operates and is accessible locally and/or remotely by beneficiary  
 
 **Alternative Route**
-
+ _Credential submission not accepted_
 _Network error prevents sending new credentials to remote servers_
 
 **Non Functional Requirements** 
@@ -135,7 +135,7 @@ Beneficiary provides wrong quantity for product
 
 **Performance**
 
-_The System should process given configuration in not more than 3 seconds
+_The System should process given configuration in not more than 5 seconds
 
 **Extensibility** 
 
@@ -181,3 +181,51 @@ _The Internal process of allocating and specifying products should be modifyable
 _The System should update the current product and financial state in not less 30 seconds
 
 
+**Purchase Items from Vending Machine**
+
+**Actor**: Users
+**Action**: Purchase items
+
+  **Users**
+   
+    *Select a prefer item by pressing a button
+    *Insert cash or card for payment
+    *Get or pick up item from the from base of the machine
+   
+  **System Response**
+  
+    *Vending Machine reads and calculate the prefer item details (Type, slot-line, numbers, amount)
+    *Vending Machine display amount due and receive the proportionate cash value
+    *Vending Machine dispense or drop the item selected for user to pick it up
+  
+  **Alternate route**
+    _Actor Action
+    *Users select item and did not insert cash or payment
+    *Users select wrong item and insert cash
+    
+    _System Response
+    *Vending Machine refuse to to dispense item
+    *Vending Machine refuse to dispense item and refund cash.
+    
+**Non Functional Requirement**:-    *Performance*
+    
+    _The response from Vending machine is faster and correct_
+    
+    
+  *AlertControl use case*
+    
+    *Actor*: Temperature
+    *Action*: Reads temperatures
+      
+     _Temperatures_
+      *Sense the ambient environ for change in temperatures proportionate to the value set for the environ
+      
+     **System Response**
+      *Adjust the degree of coldness relatively.
+      
+     **Alternate Route**
+       *Temperature sensor not reading correctly the set-up temperature environ
+       *Temperature function refuse to work.
+       
+       
+       
