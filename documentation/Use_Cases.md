@@ -19,9 +19,9 @@
 
 ##Machine Instalation:
 
-**Actor: **Machine Provider
+**Actor:**Machine Provider
 
-**Action: **Setup
+**Action:**Setup
 
 ###Machine Provider
 
@@ -48,7 +48,7 @@ and encrypted._
 
 ##Machine Setup
 
-**Actor:** Beneficiary
+**Actor:**Beneficiary
 
 **Action:**Login setup
 
@@ -77,7 +77,7 @@ _New username and password must be stored in a save location and encrypted_
 
 ##Login:
 
-**Actor:** Beneficiary
+**Actor:**Beneficiary
 
 **Action:**Login
 
