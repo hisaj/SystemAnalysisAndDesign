@@ -195,8 +195,8 @@ _The System should update the current product and financial state in not less 30
 **System Response**
 
  *Vending Machine reads and calculate the prefer item details (Type, slot-line, numbers, amount)
- **Vending Machine display amount due and receive the proportionate cash value
- **Vending Machine dispense or drop the item selected for user to pick it up
+ *Vending Machine display amount due and receive the proportionate cash value
+ *Vending Machine dispense or drop the item selected for user to pick it up
 
 **Alternate route**
  _Actor Action
@@ -221,11 +221,11 @@ _The System should update the current product and financial state in not less 30
 *Sense the ambient environ for change in temperatures proportionate to the value set for the environ
 
 **System Response**
- *Adjust the degree of coldness relatively.
+*Adjust the degree of coldness relatively.
  
 **Alternate Route**
-  *Temperature sensor not reading correctly the set-up temperature environ
-  *Temperature function refuse to work.
-  
-       
+*Temperature sensor not reading correctly the set-up temperature environ
+*Temperature function refuse to work.
+
+     
        
