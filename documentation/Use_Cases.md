@@ -19,7 +19,8 @@
 
 ##Machine Instalation:
 
-**Actor: **Machine Provider 
+**Actor: **Machine Provider
+
 **Action: **Setup
 
 ###Machine Provider
@@ -48,6 +49,7 @@ and encrypted._
 ##Machine Setup
 
 **Actor:** Beneficiary
+
 **Action:**Login setup
 
 ###Beneficiary
@@ -76,6 +78,7 @@ _New username and password must be stored in a save location and encrypted_
 ##Login:
 
 **Actor:** Beneficiary
+
 **Action:**Login
 
 ###Beneficiary
@@ -103,6 +106,7 @@ _New username and password must be stored in a save location and encrypted_
 ##Vending Machine Business Setup:
 
 **Actor:** Beneficiary
+
 **Action:** Business Setup
 
 ###Beneficiary
@@ -136,11 +140,11 @@ _New username and password must be stored in a save location and encrypted_
 
 ####Performance
 
-_The System should process given configuration in not more than 5 seconds
+_The System should process given configuration in not more than 5 seconds_
 
 ####Extensibility 
 
-_The System should allow the Machine Provider to modify and extend the list of selections in the Managment Inteface dropdown lists
+_The System should allow the Machine Provider to modify and extend the list of selections in the Managment Inteface dropdown lists_
 
 
 ####Usability
@@ -150,6 +154,7 @@ _The Machine Provider must inform possible suppliers about changes made in the V
 ##Vending Machine stock & refill:
 
 **Actor:** Supplier
+
 **Action:** stock / refill
 
 ###Supplier
@@ -185,6 +190,7 @@ _The System should update the current product and financial state in not less 30
 ##Purchase Items from Vending Machine
 
 **Actor**: Users
+
 **Action**: Purchase items
 
 ###Users
@@ -222,6 +228,7 @@ _The System should update the current product and financial state in not less 30
 ##AlertControl use case
  
 **Actor**: Temperature
+
 **Action**: Reads temperatures
 
 ###Temperatures
@@ -239,6 +246,7 @@ _The System should update the current product and financial state in not less 30
 ##Vending Machine AlertControl Vandalism
 
 **Actor:**  User
+
 **Action:** Vandalism 
 
 ###User
@@ -268,6 +276,7 @@ _The System should allow System wide recalibration of sensors._
 ##Vending Machine AlertControl Weight Imballance
 
 **Actor:**  Weight Sensor
+
 **Action:** Report weight data  
 
 ###Weight Sensor
