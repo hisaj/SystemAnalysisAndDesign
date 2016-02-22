@@ -208,12 +208,12 @@ _The System should update the current product and financial state in not less 30
 
 ###Alternate route
 
- _Actor Action_
+**Actor:** Action
  
  * Users select item and did not insert cash or payment
  * Users select wrong item and insert cash
- 
- _System Response_
+
+###System Response
 
  * Vending Machine refuse to to dispense item
  * Vending Machine refuse to dispense item and refund cash.
