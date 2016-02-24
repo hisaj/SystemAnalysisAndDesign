@@ -54,7 +54,7 @@ and encrypted._
 
 ###Beneficiary
 
-* Selects change login from Managment Interface
+* Selects change login from Main Menu
 * enters new username in provided Input Box
 * enters new password in provided Input Box
 * presses save 
@@ -111,7 +111,7 @@ _New username and password must be stored in a save location and encrypted_
 
 ###Beneficiary
 
-* Chooses Product_Mapping from Management Interface
+* Chooses Product_Mapping from Main Menu
 * Enters product name into corresponding input box  and clicks OK button.
 * Selects a Product name from a dropdown list
 * Selects a desired slot location from a dropdown Menu.
@@ -166,10 +166,10 @@ _The Machine Provider must inform possible suppliers about changes made in the V
 ###System Response
  
 * System responds to supplier locking the door
-** System Calculates individual weight for products in allocated slots
-** System initializes AlertControl according to configuration
-** System calculates an estimate of overall product value.
-** System calculates offset against current available money in the Machine
+* System Calculates individual weight for products in allocated slots
+ 1. System initializes AlertControl according to configuration
+ 2. System calculates an estimate of overall product value.
+ 3. System calculates offset against current available money in the Machine
 
 ###Alternative Route
 
@@ -208,12 +208,12 @@ _The System should update the current product and financial state in not less 30
 
 ###Alternate route
 
- _Actor Action_
+**Actor:** Action
  
  * Users select item and did not insert cash or payment
  * Users select wrong item and insert cash
- 
- _System Response_
+
+###System Response
 
  * Vending Machine refuse to to dispense item
  * Vending Machine refuse to dispense item and refund cash.
@@ -256,9 +256,9 @@ _The System should update the current product and financial state in not less 30
 ###System Response
  
 *  Internal Accelero meters report data higher than the specified threshold.
-** The System sends alert report and corresponding logs to remote servers.
-** The System sends an alert email to the Beneficiary.
-** The System sends a text Message to the Beneficiary.
+ 1. The System sends alert report and corresponding logs to remote servers.
+ 2. The System sends an alert email to the Beneficiary.
+ 3. The System sends a text Message to the Beneficiary.
 
 ###Alternative Route
 
@@ -286,11 +286,11 @@ _The System should allow System wide recalibration of sensors._
 ###System Response
  
 *  The System checks if a purchase was made .
-** The System checks what was purchased.
-** The System caculates weight imballance against the individual weight of product thas was purchased.
-** The System determines if the weigth ballance corresponds to a possible product that was not dispensed due to error. 
-** The System validates should a refund be issued
-** The System reports weight imballance and actions taken to the remote servers and logs
+ 1. The System checks what was purchased.
+ 2. The System caculates weight imballance against the individual weight of product thas was purchased.
+ 3. The System determines if the weigth ballance corresponds to a possible product that was not dispensed due to error. 
+ 4. The System validates should a refund be issued
+ 5. The System reports weight imballance and actions taken to the remote servers and logs
 
 ###Alternative Route
 
