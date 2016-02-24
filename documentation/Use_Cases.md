@@ -54,7 +54,7 @@ and encrypted._
 
 ###Beneficiary
 
-* Selects change login from Managment Interface
+* Selects change login from Main Menu
 * enters new username in provided Input Box
 * enters new password in provided Input Box
 * presses save 
@@ -111,7 +111,7 @@ _New username and password must be stored in a save location and encrypted_
 
 ###Beneficiary
 
-* Chooses Product_Mapping from Management Interface
+* Chooses Product_Mapping from Main Menu
 * Enters product name into corresponding input box  and clicks OK button.
 * Selects a Product name from a dropdown list
 * Selects a desired slot location from a dropdown Menu.
