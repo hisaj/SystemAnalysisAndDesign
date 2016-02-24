@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Alert" id="1" x="120" y="160" text="ERROR&#xA;Incorrect format for Email&#xA;OK,Cancel" measuredWidth="222" measuredHeight="136" icon="warning (large)">
+    <items x="32" y="95" width="80" height="26" text="OK"/>
+    <items x="127" y="95" width="80" height="26" text="Cancel"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Alert" id="2" x="120" y="336" text="Invalid Username or Password&#xA;Enter Correct Username or Password&#xA;OK,Cancel" measuredWidth="283" measuredHeight="136" icon="warning (large)">
+    <items x="93" y="95" width="80" height="26" text="OK"/>
+    <items x="188" y="95" width="80" height="26" text="Cancel"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Alert" id="3" x="376" y="160" text="Error&#xA;Incorrect format for telephone number&#xA;OK,Cancel" measuredWidth="289" measuredHeight="136" icon="warning (large)">
+    <items x="99" y="95" width="80" height="26" text="OK"/>
+    <items x="194" y="95" width="80" height="26" text="Cancel"/>
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

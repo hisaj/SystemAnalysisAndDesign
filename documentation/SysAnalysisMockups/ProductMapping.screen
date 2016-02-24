@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="40" y="64" width="593" height="417" text="Product Mapping" measuredWidth="593" measuredHeight="417"/>
+  <widgets xsi:type="model:Label" id="2" x="56" y="94" text="Enter Product Name:" measuredWidth="123" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="3" x="171" y="94" text="Snickers" measuredWidth="54" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="468" y="83" text="Choose Product from List:" measuredWidth="153" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="5" x="528" y="107" width="86" text="Mars&#xA;Twix&#xA;Candy Pop&#xA;Taytoes&#xA;(bg:green)|Snickers&#xA;River Rock" measuredWidth="86" measuredHeight="142">
+    <font/>
+    <items x="0" y="2" width="86" height="23" text="Mars"/>
+    <items x="0" y="25" width="86" height="23" text="Twix"/>
+    <items x="0" y="48" width="86" height="23" text="Candy Pop"/>
+    <items x="0" y="71" width="86" height="23" text="Taytoes"/>
+    <items x="0" y="94" width="86" height="23" text="(bg:green)|Snickers"/>
+    <items x="0" y="117" width="86" height="23" text="River Rock"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="6" x="56" y="128" width="451" height="329" text="Mapping" measuredWidth="451" measuredHeight="329">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="80" y="208" text=" Slot:" measuredWidth="36" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="172" y="208" text="Prices:" measuredWidth="44" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="256" y="208" text="Quantity:" measuredWidth="58" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="328" y="208" text="Temperature ranges:" measuredWidth="123" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="14" x="80" y="232" width="58" text="Slt 1 &#xA;Slt 2 &#xA;Slt 3&#xA;(bg:green)|Slt 4&#xA;Slt 5" measuredWidth="58" measuredHeight="119">
+    <font/>
+    <items x="0" y="2" width="58" height="23" text="Slt 1 "/>
+    <items x="0" y="25" width="58" height="23" text="Slt 2 "/>
+    <items x="0" y="48" width="58" height="23" text="Slt 3"/>
+    <items x="0" y="71" width="58" height="23" text="(bg:green)|Slt 4"/>
+    <items x="0" y="94" width="58" height="23" text="Slt 5"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="17" x="172" y="232" text="1.00$&#xA;1.20$&#xA;1.80$&#xA;2.00$&#xA;3.00$&#xA;(bg:green)|0.90$&#xA;4.00$" measuredWidth="45" measuredHeight="165">
+    <font/>
+    <items x="0" y="2" width="45" height="23" text="1.00$"/>
+    <items x="0" y="25" width="45" height="23" text="1.20$"/>
+    <items x="0" y="48" width="45" height="23" text="1.80$"/>
+    <items x="0" y="71" width="45" height="23" text="2.00$"/>
+    <items x="0" y="94" width="45" height="23" text="3.00$"/>
+    <items x="0" y="117" width="45" height="23" text="(bg:green)|0.90$"/>
+    <items x="0" y="140" width="45" height="23" text="4.00$"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="19" x="256" y="232" text="1&#xA;2&#xA;3&#xA;5&#xA;(bg:green)|6&#xA;+&#xA;+&#xA;20&#xA;" measuredWidth="27" measuredHeight="188">
+    <font/>
+    <items x="0" y="2" width="27" height="23" text="1"/>
+    <items x="0" y="25" width="27" height="23" text="2"/>
+    <items x="0" y="48" width="27" height="23" text="3"/>
+    <items x="0" y="71" width="27" height="23" text="5"/>
+    <items x="0" y="94" width="27" height="23" text="(bg:green)|6"/>
+    <items x="0" y="117" width="27" height="23" text="+"/>
+    <items x="0" y="140" width="27" height="23" text="+"/>
+    <items x="0" y="163" width="27" height="23" text="20"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="20" x="328" y="232" width="105" text="(bg:green)|N/A&#xA;2 - 5 &#xA;10 - 15&#xA;15 - 20&#xA;20 - 30&#xA;+&#xA;70 -90" measuredWidth="105" measuredHeight="165">
+    <font/>
+    <items x="0" y="2" width="105" height="23" text="(bg:green)|N/A"/>
+    <items x="0" y="25" width="105" height="23" text="2 - 5 "/>
+    <items x="0" y="48" width="105" height="23" text="10 - 15"/>
+    <items x="0" y="71" width="105" height="23" text="15 - 20"/>
+    <items x="0" y="94" width="105" height="23" text="20 - 30"/>
+    <items x="0" y="117" width="105" height="23" text="+"/>
+    <items x="0" y="140" width="105" height="23" text="70 -90"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="172" y="170" text="Select you Desired Product Configuration:" measuredWidth="245" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="313" y="192" text="(meassured in deg.celsius)" measuredWidth="146" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="256" y="419" text="Enter price" measuredWidth="62" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="25" x="317" y="419" text="0.90" measuredWidth="38" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="26" x="416" y="136" width="65" text="Save" measuredWidth="65" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="27" x="480" y="136" text="X" measuredWidth="27" measuredHeight="27">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
