@@ -22,7 +22,7 @@
 
 **Action:**Login Setup
 
-###Machine Provider
+###Technician
 
 * Installs Vending Machine
 * Enters (Default Password,Default Username,Location,ID)
