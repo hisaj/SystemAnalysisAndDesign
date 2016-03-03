@@ -27,8 +27,8 @@
 * Installs Vending Machine
 * Enters (Default Password,Default Username,Location,ID)
 * Selects change login from Main Menu
-* enters new username in provided Input Box
-* enters new password in provided Input Box
+* enters  username in provided Input Box
+* enters  password in provided Input Box
 * presses save 
 * Enables remote access and monitoring for beneficiary
 
