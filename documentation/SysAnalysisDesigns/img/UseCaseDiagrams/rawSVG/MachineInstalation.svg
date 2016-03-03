@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="885.82678"
+   height="623.62207"
+   id="svg3804"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="MachineInstalation.svg">
+  <defs
+     id="defs3806" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.94"
+     inkscape:cx="520.61343"
+     inkscape:cy="366.92488"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="725"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3809">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-428.74017)">
+    <rect
+       style="fill:#f9f9f9;fill-opacity:0.37272728;stroke:#000000;stroke-width:0.80120969;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3800"
+       width="354.56201"
+       height="438.5759"
+       x="399.86185"
+       y="475.44595"
+       rx="2.6910305"
+       ry="4.3651552" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:0.37272728;stroke:#000000;stroke-width:0.58787644;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3802"
+       width="209.14255"
+       height="34.001072"
+       x="399.80527"
+       y="475.38934"
+       rx="0"
+       ry="17.000536" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="417.02127"
+       y="495.97928"
+       id="text3833"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3835"
+         x="417.02127"
+         y="495.97928">Machine Setup Activities</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.77219832px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 183.14637,680.65693 1.96002,106.78974 z"
+       id="path2991"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ffff;fill-opacity:0.37272727999999999;stroke-width:2.09999989999999981;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2993"
+       sodipodi:cx="231.42857"
+       sodipodi:cy="381.23734"
+       sodipodi:rx="65.714287"
+       sodipodi:ry="60"
+       d="m 297.14286,381.23734 c 0,33.13708 -29.42129,60 -65.71429,60 -36.29299,0 -65.71428,-26.86292 -65.71428,-60 0,-33.13709 29.42129,-60 65.71428,-60 36.293,0 65.71429,26.86291 65.71429,60 z"
+       transform="matrix(0.58161475,0,0,0.4848687,47.564086,468.2873)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.61446929px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 110.62561,719.97061 148.96155,-1.57255 z"
+       id="path2998"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.61446929px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 124.34575,844.20181 187.0664,782.87249 z"
+       id="path3000"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.61446929px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 185.10639,782.87249 52.92055,59.7568 z"
+       id="path3002"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ffff;fill-opacity:0.37272727999999999;stroke:#000000;stroke-width:0.72919833999999994;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3008"
+       sodipodi:cx="604.28571"
+       sodipodi:cy="318.38019"
+       sodipodi:rx="178.57143"
+       sodipodi:ry="125.71429"
+       d="m 782.85713,318.38019 c 0,69.43008 -79.94915,125.71428 -178.57142,125.71428 -98.62228,0 -178.57143,-56.2842 -178.57143,-125.71428 0,-69.43009 79.94915,-125.71429 178.57143,-125.71429 98.62227,0 178.57142,56.2842 178.57142,125.71429 z"
+       transform="matrix(0.51426012,0,0,0.2494412,224.28542,616.56213)" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="459.57446"
+       y="701.2984"
+       id="text3885"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3887"
+         x="459.57446"
+         y="701.2984">Machine Installation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="-0.36532113"
+       y="911.92291"
+       id="text3896"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.73079082,-0.68260148,0.68260148,0.73079082,0,0)"
+       inkscape:transform-center-x="29.787234"
+       inkscape:transform-center-y="-26.595745"><tspan
+         sodipodi:role="line"
+         id="tspan3898"
+         x="-0.36532113"
+         y="911.92291"
+         style="font-size:11px">&lt;&lt;include&gt;&gt;</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ffff;fill-opacity:0.37272728;stroke:#000000;stroke-width:0.72919834;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3008-2"
+       sodipodi:cx="604.28571"
+       sodipodi:cy="318.38019"
+       sodipodi:rx="178.57143"
+       sodipodi:ry="125.71429"
+       d="m 782.85713,318.38019 a 178.57143,125.71429 0 1 1 -357.14285,0 178.57143,125.71429 0 1 1 357.14285,0 z"
+       transform="matrix(0.39786532,0,0,0.26230032,434.57567,485.34039)" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="638.29791"
+       y="565.12823"
+       id="text3907"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3909"
+         x="638.29791"
+         y="565.12823">Login</tspan><tspan
+         sodipodi:role="line"
+         x="638.29791"
+         y="582.62823"
+         id="tspan3911">Validation</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 8;stroke-dashoffset:0"
+       d="m 717.02128,169.36675 -88.29787,77.65957 z"
+       id="path3913"
+       inkscape:connector-curvature="0"
+       transform="translate(0,428.74017)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 445.74468,275.74973 188.29787,324.6859 z"
+       id="path4427"
+       inkscape:connector-curvature="0"
+       transform="translate(0,428.74017)" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="127.65958"
+       y="874.7027"
+       id="text4429"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4431"
+         x="127.65958"
+         y="874.7027">Machine Provider</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.56782252px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 635.05034,677.47177 -13.37127,4.36091 4.52246,-10.14625 -3.97027,9.60981 z"
+       id="path5142-5"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-y="5.3570363" />
+  </g>
+</svg>

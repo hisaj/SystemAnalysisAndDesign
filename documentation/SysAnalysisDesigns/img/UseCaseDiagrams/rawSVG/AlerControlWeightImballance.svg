@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448"
+   height="524.40942"
+   id="svg4263"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="AlerControlWeightImballance.svg">
+  <defs
+     id="defs4265" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0074671"
+     inkscape:cx="252.71038"
+     inkscape:cy="295.96755"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="725"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4268">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-527.95272)">
+    <rect
+       style="fill:#f9f9f9;fill-opacity:0.37272728;stroke:#000000;stroke-width:0.86524791;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3800"
+       width="413.50516"
+       height="438.5759"
+       x="283.54565"
+       y="550.18652"
+       rx="3.1383932"
+       ry="4.3651552" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:0.37272728;stroke:#000000;stroke-width:0.65672487;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3802"
+       width="260.99805"
+       height="34.001072"
+       x="282.87692"
+       y="549.13733"
+       rx="0"
+       ry="17.000536" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="292.15222"
+       y="568.73468"
+       id="text3833"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3835"
+         x="292.15222"
+         y="568.73468">Alert Control Weight Imballance</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.77219832px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 152.57321,712.71621 1.96002,106.78974 z"
+       id="path2991"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ffff;fill-opacity:0.37272728;stroke-width:2.0999999;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2993"
+       sodipodi:cx="231.42857"
+       sodipodi:cy="381.23734"
+       sodipodi:rx="65.714287"
+       sodipodi:ry="60"
+       d="m 297.14286,381.23734 a 65.714287,60 0 1 1 -131.42857,0 65.714287,60 0 1 1 131.42857,0 z"
+       transform="matrix(0.58161475,0,0,0.4848687,16.990928,500.34658)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.61446929px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 80.052455,752.02989 229.014,750.45734 z"
+       id="path2998"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.61446929px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 93.772595,876.26109 156.49324,814.93177 z"
+       id="path3000"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.61446929px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 154.53323,814.93177 52.92055,59.7568 z"
+       id="path3002"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ffff;fill-opacity:0.37272728;stroke:#000000;stroke-width:0.72919834;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3008"
+       sodipodi:cx="604.28571"
+       sodipodi:cy="318.38019"
+       sodipodi:rx="178.57143"
+       sodipodi:ry="125.71429"
+       d="m 782.85713,318.38019 a 178.57143,125.71429 0 1 1 -357.14285,0 178.57143,125.71429 0 1 1 357.14285,0 z"
+       transform="matrix(0.76087716,0,0,0.50593639,-29.262713,613.98896)" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="-165.03485"
+       y="838.0719"
+       id="text3896"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.70693879,-0.70727474,0.70727474,0.70693879,0,0)"
+       inkscape:transform-center-x="30.682248"
+       inkscape:transform-center-y="-25.558"><tspan
+         sodipodi:role="line"
+         id="tspan3898"
+         x="-165.03485"
+         y="838.0719"
+         style="font-size:11px">&lt;&lt;extends&gt;&gt;</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ffff;fill-opacity:0.37272728;stroke:#000000;stroke-width:0.72919834;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3008-2"
+       sodipodi:cx="604.28571"
+       sodipodi:cy="318.38019"
+       sodipodi:rx="178.57143"
+       sodipodi:ry="125.71429"
+       d="m 782.85713,318.38019 a 178.57143,125.71429 0 1 1 -357.14285,0 178.57143,125.71429 0 1 1 357.14285,0 z"
+       transform="matrix(0.41464944,0,0,0.17560316,357.13434,577.75774)" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="573.97675"
+       y="640.86139"
+       id="text3907"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="573.97675"
+         y="640.86139"
+         id="tspan3911">Refund</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 8;stroke-dashoffset:0"
+       d="m 548.47835,651.01055 -61.21782,60.22043 z"
+       id="path3913"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 293.08316,779.23047 166.65801,790.44829 z"
+       id="path4427"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="97.086426"
+       y="906.76196"
+       id="text4429"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4431"
+         x="97.086426"
+         y="906.76196">Weight Sensor</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="358.32437"
+       y="752.60046"
+       id="text4358"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4360"
+         x="358.32437"
+         y="752.60046">Weight Imballance</tspan><tspan
+         sodipodi:role="line"
+         x="358.32437"
+         y="770.10046"
+         id="tspan4362" /><tspan
+         sodipodi:role="line"
+         x="358.32437"
+         y="787.60046"
+         id="tspan4364" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="360.30957"
+       y="781.38556"
+       id="text4366"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4368"
+         x="360.30957"
+         y="781.38556"
+         style="font-size:11px">extension points</tspan><tspan
+         sodipodi:role="line"
+         x="360.30957"
+         y="793.14209"
+         id="tspan4370"
+         style="font-size:9px">  status validation:</tspan><tspan
+         sodipodi:role="line"
+         x="360.30957"
+         y="804.39209"
+         id="tspan4372"
+         style="font-size:9px">  after confirmation of cause to</tspan><tspan
+         sodipodi:role="line"
+         x="360.30957"
+         y="815.64209"
+         id="tspan4374"
+         style="font-size:9px">  imballance</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 297.77649,234.57364 263.03589,0 z"
+       id="path4378"
+       inkscape:connector-curvature="0"
+       transform="translate(0,527.95272)" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="-161.89537"
+       y="798.87683"
+       id="text4382"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.71659788,-0.69748654,0.69748654,0.71659788,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan4384"
+         x="-161.89537"
+         y="798.87683"
+         style="font-size:10px;font-weight:bold;-inkscape-font-specification:Serif Bold">Purchase Was not </tspan><tspan
+         sodipodi:role="line"
+         x="-161.89537"
+         y="811.37683"
+         style="font-size:10px;font-weight:bold;-inkscape-font-specification:Serif Bold"
+         id="tspan4386">     successful</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ffff;fill-opacity:0.37272728;stroke:#000000;stroke-width:0.72919834;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3008-2-6"
+       sodipodi:cx="604.28571"
+       sodipodi:cy="318.38019"
+       sodipodi:rx="178.57143"
+       sodipodi:ry="125.71429"
+       d="m 782.85713,318.38019 a 178.57143,125.71429 0 1 1 -357.14285,0 178.57143,125.71429 0 1 1 357.14285,0 z"
+       transform="matrix(0.41464944,0,0,0.17560316,341.01589,833.6691)" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="546.02777"
+       y="893.80432"
+       id="text3907-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="546.02777"
+         y="893.80432"
+         id="tspan3911-3">Log Report</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="881.93555"
+       y="439.43167"
+       id="text3896-9"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.86551412,0.50088452,-0.50088452,0.86551412,0,0)"
+       inkscape:transform-center-x="-16.791638"
+       inkscape:transform-center-y="-36.230558"><tspan
+         sodipodi:role="line"
+         id="tspan3898-7"
+         x="881.93555"
+         y="439.43167"
+         style="font-size:11px">&lt;&lt;include&gt;&gt;</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 6;stroke-dashoffset:1.4"
+       d="M 609.32866,868.00322 529.91819,824.36609 z"
+       id="path4448"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5431"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Serif;font-style:normal;font-weight:normal;font-size:14px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Serif;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion5433"><rect
+           id="rect5435"
+           width="647.16754"
+           height="450.63507"
+           x="59.555298"
+           y="21.167162" /></flowRegion><flowPara
+         id="flowPara5437"></flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:0.59334248px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 496.64915,712.59091 -14.47539,3.16385 5.11137,-9.86323 -4.50478,9.37119 z"
+       id="path5142-5-0"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-y="5.2282862" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.56782252px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 534.68716,833.35386 -9.20545,-10.63334 11.10604,0.23337 -10.39743,0.0675 z"
+       id="path5142-5-0-6"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="3.7593203"
+       inkscape:transform-center-y="-5.7036913" />
+  </g>
+</svg>
