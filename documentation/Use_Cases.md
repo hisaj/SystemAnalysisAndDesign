@@ -8,7 +8,7 @@
 
 1. Machine Installation
 2. Vending Machine _Business Setup_
-3. Restock  _Refill Beneficiary_
+3. Restock  _Refill_
 4. Purchase _User_
 5. AlertControl _Account Imballance_ 
 6. AlertControl _Temperature Imballance_
@@ -54,7 +54,7 @@ _Login credentials should be encrypted when send over network_
 
 **Action:**Login
 
-###Beneficiary
+###Technician
 
 * Enters his username
 * Enters his password
@@ -104,9 +104,9 @@ _Login credentials should be encrypted when send over network_
 
 ###Alternative Route
 
-* The Beneficiary enters wrong format for price:
-* Beneficiary is alerted to his error and machine does not accept input
-* Beneficiary provides wrong quantity for product
+* The Technician enters wrong format for price:
+* Technician is alerted to his error and machine does not accept input
+* Technician provides wrong quantity for product
 * System fails to calculate the individual weight of product. 
 
 ###Non Functional Requirements
@@ -220,8 +220,8 @@ _The System should reorder in not less 1 second_
 ###System Response
  
  1. The System sends alert report and corresponding logs to remote servers.
- 2. The System sends an alert email to the Beneficiary.
- 3. The System sends a text Message to the Beneficiary.
+ 2. The System sends an alert email to the technician.
+ 3. The System sends a text Message to the technician.
 
 ###Alternative Route
 
