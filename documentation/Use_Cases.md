@@ -13,71 +13,44 @@
 5. AlertControl _Account Imballance_ 
 6. AlertControl _Temperature Imballance_
 7. AlertControl _Vandalism_ 
-8. AlertControl _Vandalism_   
-9. AlertControl _Weight Imbalance_   
+8. AlertControl _Weight Imbalance_   
 
 
 ##Machine Instalation:
 
-**Actor:**Machine Provider
+**Actor:**Technician
 
-**Action:**Setup
+**Action:**Login Setup
 
 ###Machine Provider
 
 * Installs Vending Machine
 * Enters (Default Password,Default Username,Location,ID)
+* Selects change login from Main Menu
+* enters new username in provided Input Box
+* enters new password in provided Input Box
+* presses save 
 * Enables remote access and monitoring for beneficiary
 
 ###System Response
 
 * Validate and accept credentials
-* Send new credentials to remote servers
-* System operates and is accessible locally and/or remotely by beneficiary  
+* Send credentials to remote servers
+* System operates and is accessible locally and/or remotely by technician 
 
 ###Alternative Route
-Credential submission not accepted_
-Network error prevents sending new credentials to remote servers_
+Credential submission not accepted
+Network error prevents sending new credentials to remote servers
 
 ###Non Functional Requirements 
 
 ####Security
 
-_Login credentials should stored in a save storage area on the Vending Machine
-and encrypted._
-
-##Machine Setup
-
-**Actor:**Beneficiary
-
-**Action:**Login setup
-
-###Beneficiary
-
-* Selects change login from Main Menu
-* enters new username in provided Input Box
-* enters new password in provided Input Box
-* presses save 
-
-###System Response
-
-* Validate new credentials
-* Stores new credentials 
-
-###Alternative Route
-
-Beneficiary supplies password not adhering to required format
-Vending Machine does not accept input and alerts beneficiary to his error
- 
-###Non Functional Requirements
-
-####Security
-
-_New username and password must be stored in a save location and encrypted_
+_Login credentials should be encrypted when send over network_
 
 ##Login:
 
-**Actor:**Beneficiary
+**Actor:**Technician
 
 **Action:**Login
 
@@ -103,20 +76,20 @@ _New username and password must be stored in a save location and encrypted_
 * The Managment Interface  should load in a timely fashion within 1 to 2 seconds
 * The Managment Interface should be easy to use and functions should be displayed in a disambiguateded manner
 
-##Vending Machine Business Setup:
+##Vending Machine Operations Setup:
 
-**Actor:** Beneficiary
+**Actor:** Technician
 
-**Action:** Business Setup
+**Action:** Operations Setup
 
-###Beneficiary
+###Technician
 
 * Chooses Product_Mapping from Main Menu
 * Enters product name into corresponding input box  and clicks OK button.
-* Selects a Product name from a dropdown list
-* Selects a desired slot location from a dropdown Menu.
+* Selects a product name from dropdown list
+* Selects a desired slot location from dropdown Menu.
 * Enters a desired price into corresponding input box and clicks OK button.
-* Selects A desired Price from dropdown Menu
+* Selects  desired Price from dropdown Menu
 ** 1.) Selects a desired temperature range for the current product from a dropdown menu.
 ** 2.) Selects N/A from temperature dropdown to indicate no temperature needed.
 * Selects a Quantity for product from a dropdown Menu
@@ -140,22 +113,18 @@ _New username and password must be stored in a save location and encrypted_
 
 ####Performance
 
-_The System should process given configuration in not more than 5 seconds_
-
-####Extensibility 
-
-_The System should allow the Machine Provider to modify and extend the list of selections in the Managment Inteface dropdown lists_
+_The System should process given configuration in not more than 0.5 seconds_
 
 
 ####Usability
 
-_The Machine Provider must inform possible suppliers about changes made in the Vending Machine Business Setup._
+_Possible suppliers must knowe about changes made in the Vending Machine operations Setup._
 
-##Vending Machine stock & refill:
+##Reorder:
 
 **Actor:** Supplier
 
-**Action:** stock / refill
+**Action:** Reorder
 
 ###Supplier
 
@@ -178,20 +147,15 @@ _The Machine Provider must inform possible suppliers about changes made in the V
 
 ###Non Functional Requirements
 
-####Extensibility
-
-_The Internal process of allocating and specifying products should be modifyable by the Beneficiary_
-
 ###Performance
 
-_The System should update the current product and financial state in not less 30 seconds_
+_The System should reorder in not less 1 second_
 
-
-##Purchase Items from Vending Machine
+##Dispense
 
 **Actor**: Users
 
-**Action**: Purchase items
+**Action**: Dispense
 
 ###Users
 
@@ -201,61 +165,60 @@ _The System should update the current product and financial state in not less 30
 
 ###System Response
 
- * Vending Machine reads and calculate the prefer item details (Type, slot-line, numbers, amount)
- * Vending Machine reads and calculate the prefer item details (Type, slot-line, numbers, amount)
- * Vending Machine display amount due and receive the proportionate cash value
- * Vending Machine dispense or drop the item selected for user to pick it up
+ * System displays price of item 
+ * System veryfies payment method.
+ * Accepts payments
+ * Displays amounts due.
+ * Dispenses item selected.
 
 ###Alternate route
 
 **Actor:** Action
  
  * Users select item and did not insert cash or payment
- * Users select wrong item and insert cash
 
 ###System Response
 
  * Vending Machine refuse to to dispense item
- * Vending Machine refuse to dispense item and refund cash.
 
 ###Non Functional Requirement
 
 ####Performance
  
- _The response from Vending machine is faster and correct_
+ _mnachine should process payments and dispense items in not more than 0.5 seconds_
  
  
-##AlertControl use case
+##AlertControl Temperature Imballance
  
-**Actor**: Temperature
+**Actor**: Control
 
-**Action**: Reads temperatures
+**Action**: Reads temperature
 
-###Temperatures
+###Control
 
-* Sense the ambient environ for change in temperatures proportionate to the value set for the environ
+* Read temperature Sensors
 
 ###System Response
-* Adjust the degree of coldness relatively.
+
+* Adjust Temperature according to configuration.
+* Prevent dispense
 
 ###Alternate Route
 
-* Temperature sensor not reading correctly the set-up temperature environ
-* Temperature function refuse to work.
+* Temperature sensor faulty
 
-##Vending Machine AlertControl Vandalism
+##Alert Control Vandalism
 
-**Actor:**  User
+**Actor:**  Control
 
-**Action:** Vandalism 
+**Action:** reads Acceleration 
 
-###User
+###Control
 
-* Handles Machine with agressive and malicious intent
+*  Reads Accelero meters data, that is higher than the specified threshold.
 
 ###System Response
  
-*  Internal Accelero meters report data higher than the specified threshold.
  1. The System sends alert report and corresponding logs to remote servers.
  2. The System sends an alert email to the Beneficiary.
  3. The System sends a text Message to the Beneficiary.
@@ -275,13 +238,13 @@ _The System should allow System wide recalibration of sensors._
 
 ##Vending Machine AlertControl Weight Imballance
 
-**Actor:**  Weight Sensor
+**Actor:**  Control
 
-**Action:** Report weight data  
+**Action:** reads weight data  
 
-###Weight Sensor
+###Control
 
-* Reports data from sensors that does not correspond to overall estimation of current weight
+* Reads data from sensors that does not correspond to overall estimation of current weight
 
 ###System Response
  
