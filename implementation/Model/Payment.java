@@ -4,12 +4,12 @@ import java.util.*;
 /**
  * 
  */
-public class Money {
+public class Payment {
 
     /**
      * Default constructor
      */
-    public Money() {
+    public Payment() {
     }
 
     /**

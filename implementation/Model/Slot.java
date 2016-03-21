@@ -4,7 +4,7 @@ import java.util.*;
 /**
  * 
  */
-public class Slot {
+public class Slot extends System {
 
     /**
      * Default constructor
@@ -31,6 +31,7 @@ public class Slot {
      * 
      */
     private double temperature;
+
 
 
 
@@ -88,5 +89,43 @@ public class Slot {
         // TODO implement here
         return null;
     }
+
+    /**
+     * @return
+     */
+    public abstract void reorder();
+
+    /**
+     * @return
+     */
+    public abstract void errorMessage();
+
+    /**
+     * @param String String 
+     * @return
+     */
+    public abstract boolean validateLogin(void String String);
+
+    /**
+     * @param String String 
+     * @return
+     */
+    public abstract void setLoginDetails(void String String);
+
+    /**
+     * @return
+     */
+    public abstract void listenConnect();
+
+    /**
+     * @return
+     */
+    public abstract double getConfig();
+
+    /**
+     * @param String 
+     * @return
+     */
+    public abstract void setConfig(void String);
 
 }
