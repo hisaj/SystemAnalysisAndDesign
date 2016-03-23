@@ -12,9 +12,8 @@ public class VendingMachine extends System {
      */
     public VendingMachine() {}
     
-    public VendingMachine() {
-         
-    }
+    public VendingMachine(Slot [] slots) {
+         slots = new slots []{};
     /**
      * @return
      */
