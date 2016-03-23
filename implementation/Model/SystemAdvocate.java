@@ -16,13 +16,6 @@ public class SystemAdvocate extends SystemAdvocate {
      * 
      */
     public SystemControl systemControl;
-
-
-
-
-
-
-
     /**
      * @return
      */
