@@ -1,106 +1,56 @@
 
 import java.util.*;
 
-/**
- * 
- */
 public class Product {
-
+    
+    private String name;
+    private double price;
+    private int currency;
+    private double weight;
+    
     /**
      * Default constructor
      */
     public Product() {
     }
-
-    /**
-     * 
-     */
-    private String name;
-
-    /**
-     * 
-     */
-    private double price;
-
-    /**
-     * 
-     */
-    private string currency;
-
-    /**
-     * 
-     */
-    private double weight;
-
-
-
-
-    /**
-     * @return
-     */
+    
+    public Product(String productName, double productPrice, int moneyType, double productWeight ) {
+        name = productName;
+        price = productPrice;
+        currency = moneyType;
+        weight = productWeight;
+    }
+    
     public String getName() {
-        // TODO implement here
-        return "";
+        return name;
     }
 
-    /**
-     * @return
-     */
     public double getPrice() {
-        // TODO implement here
-        return 0.0d;
+       return price;
     }
 
-    /**
-     * @return
-     */
     public String getCurrencyType() {
-        // TODO implement here
-        return "";
+       return currency;
     }
 
-    /**
-     * @return
-     */
     public double getWeight() {
-        // TODO implement here
-        return 0.0d;
+      return weight;
     }
 
-    /**
-     * @param String 
-     * @return
-     */
-    public void setName(void String) {
-        // TODO implement here
-        return null;
+    public void setName(String theName) {
+       this.name = theName;
+    }
+    
+    public void setPrice(double thePrice) {
+        this.price = thePrice;
+    }
+    
+    public void setCurrency(int currencyType) {
+       this.currency = currencyType;
     }
 
-    /**
-     * @param double 
-     * @return
-     */
-    public void setPrice(void double) {
-        // TODO implement here
-        return null;
-    }
-
-    /**
-     * @param String 
-     * @return
-     */
-    public void setCurrency(void String) {
-        // TODO implement here
-        return null;
-    }
-
-    /**
-     * @param double 
-     * @return
-     */
-    public void setWeight(void double) {
-        // TODO implement here
-        return null;
+    public void setWeight(double theWeight) {
+        this.weight = theWeight;
     }
 
 }
