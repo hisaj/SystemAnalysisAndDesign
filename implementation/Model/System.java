@@ -1,4 +1,3 @@
-
 import java.util.*;
 
 /**
@@ -21,15 +20,6 @@ public abstract class System {
      * 
      */
     public Server server;
-
-
-
-
-
-
-
-
-
 
     /**
      * @return
