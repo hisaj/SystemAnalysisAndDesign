@@ -1,90 +1,49 @@
 
 import java.util.*;
 
-/**
- * 
- */
 public class Slot extends System {
+    
+    private Product product;
+    private String location;
+    private double weight;
+    private double temperature;
 
     /**
      * Default constructor
      */
     public Slot() {
     }
-
-    /**
-     * 
-     */
-    private Product product;
-
-    /**
-     * 
-     */
-    private String location;
-
-    /**
-     * 
-     */
-    private double weight;
-
-    /**
-     * 
-     */
-    private double temperature;
-
-
-
-
-
-
-
-
+    
+     public Slot(Product myProduct, String slotLocation, double rowSlotWeight, double slotTemperature ) {
+         product = myProduct;
+         location = slotLocation;
+         weight = rowSlotWeight;
+         temperature = slotTemperature;
+    }
+    
     /**
      * @return
      */
     public String getLocation() {
-        // TODO implement here
-        return "";
+       return location;
     }
 
-    /**
-     * @return
-     */
     public double getTemperature() {
-        // TODO implement here
-        return 0.0d;
+       return temperature;
     }
 
-    /**
-     * @return
-     */
     public double getWeight() {
-        // TODO implement here
-        return 0.0d;
+       return weight;
+    }
+    
+    public void setLocation(String loc) {
+        this.location = loc;
     }
 
-    /**
-     * @param String 
-     * @return
-     */
-    public void setLocation(void String) {
-        // TODO implement here
-        return null;
+    public void setTemperature(Product aProduct) {
+        this.product = aProduct;
     }
 
-    /**
-     * @param Product 
-     * @return
-     */
-    public void setTemperature(void Product) {
-        // TODO implement here
-        return null;
-    }
-
-    /**
-     * @param Product 
-     * @return
-     */
     public void setWeight(void Product) {
         // TODO implement here
         return null;
