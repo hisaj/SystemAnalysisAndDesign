@@ -1,4 +1,3 @@
-
 import java.util.*;
 
 /**
@@ -11,13 +10,6 @@ public class DatabaseHelper {
      */
     public DatabaseHelper() {
     }
-
-
-
-
-
-
-
     /**
      * @param String[] 
      * @return
