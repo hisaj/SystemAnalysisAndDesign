@@ -5,47 +5,38 @@ import java.util.*;
  * 
  */
 public class VendingMachine extends System {
-
+    
+    private Slot slots[ ];
     /**
      * Default constructor
      */
+    public VendingMachine() {}
+    
     public VendingMachine() {
+         
     }
-
-    /**
-     * 
-     */
-    private Slot slots[ ];
-
-
-
-
-
-
-
-
-
     /**
      * @return
      */
     public void startInterface() {
-        // TODO implement here
-        return null;
+       boolean begin = false;
+       if(!begin){
+           listenConnect();
+       }
     }
 
     /**
      * @param Slot
      */
-    public void setSlot(void Slot) {
-        // TODO implement here
+    public void setSlot(Slot mySlot) {
+       this.slots = mySlot;
     }
 
     /**
      * @return
      */
     public Slot getSlot() {
-        // TODO implement here
-        return null;
+       return this.slots;
     }
 
     /**
@@ -57,13 +48,15 @@ public class VendingMachine extends System {
      * @return
      */
     public abstract void errorMessage();
-
+         System.out.print("This activity was not successful");
     /**
      * @param String String 
      * @return
      */
-    public abstract boolean validateLogin(void String String);
-
+    public abstract boolean validateLogin( String n){
+        
+    }
+        
     /**
      * @param String String 
      * @return
@@ -74,12 +67,15 @@ public class VendingMachine extends System {
      * @return
      */
     public abstract void listenConnect();
-
+    {
+       boolean yesConnect = true;
+    }
+    
     /**
      * @return
      */
     public abstract double getConfig();
-
+     
     /**
      * @param String 
      * @return
