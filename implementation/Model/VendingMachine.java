@@ -74,7 +74,9 @@ public class VendingMachine  extends Systems {
 
 	@Override
 	public void listenConnect() {
-		//boolean yesConnect = true;
+		boolean yesConnect = true;
+		if(yesConnect)
+			this.equals(true);
 		
 	}
 
