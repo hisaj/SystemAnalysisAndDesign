@@ -1,6 +1,4 @@
-
 import java.util.*;
-
 public class Product {
     
     private String name;
@@ -29,7 +27,7 @@ public class Product {
        return price;
     }
 
-    public String getCurrencyType() {
+    public int getCurrencyType() {
        return currency;
     }
 
@@ -52,5 +50,4 @@ public class Product {
     public void setWeight(double theWeight) {
         this.weight = theWeight;
     }
-
 }
