@@ -1,30 +1,29 @@
-
 import java.util.*;
 
-public class Slot extends System {
+public class Slot extends Systems {
     
     private Product product;
-    private String location;
+    private int location;
     private double weight;
     private double temperature;
-
+    private boolean used;
     /**
      * Default constructor
      */
     public Slot() {
+    	used = false;
+    	setUsed(used);
     }
     
-     public Slot(Product myProduct, String slotLocation, double rowSlotWeight, double slotTemperature ) {
-         product = myProduct;
-         location = slotLocation;
-         weight = rowSlotWeight;
-         temperature = slotTemperature;
+    public void setUsed(boolean used){
+    	this.used=used;
     }
     
-    /**
-     * @return
-     */
-    public String getLocation() {
+	public boolean getUsed(){
+		return this.used;
+	}
+	
+    public int getLocation() {
        return location;
     }
 
@@ -36,55 +35,69 @@ public class Slot extends System {
        return weight;
     }
     
-    public void setLocation(String loc) {
+    public void setLocation(int loc) {
         this.location = loc;
     }
 
-    public void setTemperature(Product aProduct) {
-        this.product = aProduct;
+    public void setTemperature(double temp) {
+        this.temperature = temp;
     }
 
-    public void setWeight(void Product) {
-        // TODO implement here
-        return null;
+    public void setWeight(double w){
+    	this.weight = w;
+    }
+    
+    public void setProduct() {
+        this.product = new Product();  	
+    	
+    }
+    
+    public void getProduct(Product anItem) {
+        this.product = anItem;  	
+    	
+    }
+    
+    public Product getProduct() {
+        return product;  	
+    	
     }
 
-    /**
-     * @return
-     */
-    public abstract void reorder();
+	@Override
+	public void reorder() {
+		// TODO Auto-generated method stub
+		
+	}
 
-    /**
-     * @return
-     */
-    public abstract void errorMessage();
+	@Override
+	public boolean validateLogin(String aString) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 
-    /**
-     * @param String String 
-     * @return
-     */
-    public abstract boolean validateLogin(void String String);
+	@Override
+	public void setLoginDetails(String string) {
+		// TODO Auto-generated method stub
+		
+	}
 
-    /**
-     * @param String String 
-     * @return
-     */
-    public abstract void setLoginDetails(void String String);
+	@Override
+	public void listenConnect() {
+		// TODO Auto-generated method stub
+	}
 
-    /**
-     * @return
-     */
-    public abstract void listenConnect();
+	@Override
+	public double getConfig() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
-    /**
-     * @return
-     */
-    public abstract double getConfig();
+	@Override
+	public void setConfig(String n) {
+		// TODO Auto-generated method stub
+	}
 
-    /**
-     * @param String 
-     * @return
-     */
-    public abstract void setConfig(void String);
-
+	@Override
+	public void errorMessage() {
+		// TODO Auto-generated method stub
+	}
 }
