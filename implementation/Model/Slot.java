@@ -1,62 +1,70 @@
 
 import java.util.*;
-public class VendingMachine  extends Systems { 
+public class Slot extends Systems {
     
-    private Slot slots[];
+    private Product product;
+    private int location;
+    private double weight;
+    private double temperature;
+    private boolean used;
     /**
      * Default constructor
      */
-    public VendingMachine() {}
-    
-    public VendingMachine(Slot [] slots) {
-         slots = new Slot[20];
-         //Slot tmp; 
-         for(int i=0;i<slots.length;i++){
-        	//tmp = new Slot();
-        	 slots[i]= null; 
-        	 slots[i].setUsed(false);	 
-         }
+    public Slot() {
+    	used = false;
+    	setUsed(used);
     }
-   
-    public void startInterface() {
-       boolean begin = false;
-       if(!begin){
-            listenConnect();
-       }
+    
+    public void setUsed(boolean used){
+    	this.used=used;
+    }
+    
+	public boolean getUsed(){
+		return this.used;
+	}
+	
+    public int getLocation() {
+       return location;
     }
 
-    public void setSlot(int slotIndex, double productWeight, double slotTemperature, Product aProduct){
-    	Product prod;
-    	int i;
-		for(i= 0; i < slots.length; i++ ){
-			
-			prod = new Product(aProduct.getName(), aProduct.getPrice(), aProduct.getCurrencyType(), aProduct.getWeight());	
-			slots[i].setLocation(slotIndex);
-			slots[i].setWeight(productWeight);
-			slots[i].setTemperature(slotTemperature);
-			slots[i].getProduct(prod);
-			slots[i].setUsed(true);
-		}	
-		slots = getSlot();	
-	}
+    public double getTemperature() {
+       return temperature;
+    }
+
+    public double getWeight() {
+       return weight;
+    }
     
-    public Slot [] getSlot() {
+    public void setLocation(int loc) {
+        this.location = loc;
+    }
+
+    public void setTemperature(double temp) {
+        this.temperature = temp;
+    }
+
+    public void setWeight(double w){
+    	this.weight = w;
+    }
+    
+    public void setProduct() {
+        this.product = new Product();  	
     	
-       	for(Slot s: slots){
-       		s.getProduct();
-    	}
-    	  return  slots;
+    }
+    
+    public void getProduct(Product anItem) {
+        this.product = anItem;  	
+    	
+    }
+    
+    public Product getProduct() {
+        return product;  	
+    	
     }
 
 	@Override
 	public void reorder() {
 		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void errorMessage() {
-		System.out.print("This activity was not successful");
 		
 	}
 
@@ -74,9 +82,7 @@ public class VendingMachine  extends Systems {
 
 	@Override
 	public void listenConnect() {
-		boolean yesConnect = true;
-		if(yesConnect)
-			this.equals(true);
+		// TODO Auto-generated method stub
 		
 	}
 
@@ -88,6 +94,12 @@ public class VendingMachine  extends Systems {
 
 	@Override
 	public void setConfig(String n) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void errorMessage() {
 		// TODO Auto-generated method stub
 		
 	}
