@@ -1,90 +1,94 @@
 
 import java.util.*;
-
-public class Slot extends System {
+public class VendingMachine  extends Systems { 
     
-    private Product product;
-    private String location;
-    private double weight;
-    private double temperature;
-
+    private Slot slots[];
     /**
      * Default constructor
      */
-    public Slot() {
-    }
+    public VendingMachine() {}
     
-     public Slot(Product myProduct, String slotLocation, double rowSlotWeight, double slotTemperature ) {
-         product = myProduct;
-         location = slotLocation;
-         weight = rowSlotWeight;
-         temperature = slotTemperature;
+    public VendingMachine(Slot [] slots) {
+         slots = new Slot[20];
+         //Slot tmp; 
+         for(int i=0;i<slots.length;i++){
+        	//tmp = new Slot();
+        	 slots[i]= null; 
+        	 slots[i].setUsed(false);	 
+         }
     }
+   
+    public void startInterface() {
+       boolean begin = false;
+       if(!begin){
+            listenConnect();
+       }
+    }
+
+    public void setSlot(int slotIndex, double productWeight, double slotTemperature, Product aProduct){
+    	Product prod;
+    	int i;
+		for(i= 0; i < slots.length; i++ ){
+			
+			prod = new Product(aProduct.getName(), aProduct.getPrice(), aProduct.getCurrencyType(), aProduct.getWeight());	
+			slots[i].setLocation(slotIndex);
+			slots[i].setWeight(productWeight);
+			slots[i].setTemperature(slotTemperature);
+			slots[i].getProduct(prod);
+			slots[i].setUsed(true);
+		}	
+		slots = getSlot();	
+	}
     
-    /**
-     * @return
-     */
-    public String getLocation() {
-       return location;
+    public Slot [] getSlot() {
+    	
+       	for(Slot s: slots){
+       		s.getProduct();
+    	}
+    	  return  slots;
     }
 
-    public double getTemperature() {
-       return temperature;
-    }
+	@Override
+	public void reorder() {
+		// TODO Auto-generated method stub
+		
+	}
 
-    public double getWeight() {
-       return weight;
-    }
-    
-    public void setLocation(String loc) {
-        this.location = loc;
-    }
+	@Override
+	public void errorMessage() {
+		System.out.print("This activity was not successful");
+		
+	}
 
-    public void setTemperature(Product aProduct) {
-        this.product = aProduct;
-    }
+	@Override
+	public boolean validateLogin(String aString) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 
-    public void setWeight(void Product) {
-        // TODO implement here
-        return null;
-    }
+	@Override
+	public void setLoginDetails(String string) {
+		// TODO Auto-generated method stub
+		
+	}
 
-    /**
-     * @return
-     */
-    public abstract void reorder();
+	@Override
+	public void listenConnect() {
+		boolean yesConnect = true;
+		if(yesConnect)
+			this.equals(true);
+		
+	}
 
-    /**
-     * @return
-     */
-    public abstract void errorMessage();
+	@Override
+	public double getConfig() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
-    /**
-     * @param String String 
-     * @return
-     */
-    public abstract boolean validateLogin(void String String);
-
-    /**
-     * @param String String 
-     * @return
-     */
-    public abstract void setLoginDetails(void String String);
-
-    /**
-     * @return
-     */
-    public abstract void listenConnect();
-
-    /**
-     * @return
-     */
-    public abstract double getConfig();
-
-    /**
-     * @param String 
-     * @return
-     */
-    public abstract void setConfig(void String);
-
+	@Override
+	public void setConfig(String n) {
+		// TODO Auto-generated method stub
+		
+	}
 }
